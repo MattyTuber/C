@@ -1,0 +1,91 @@
+1. Comment fermes tu le fichier clients ? 
+
+	--> fclose #NOM;
+
+2. Comment faire pour créer ton propre type de donnée et a quelle type de donnée ça s'applique?
+	
+	--> Je sais plus 
+
+3. Dans ce code suivant quelles sont les erreurs ?
+
+	--> file (*)fichierClient ;
+
+4. Quelle est la syntaxe pour ouvrir un fichier exemple fichierTerrains
+
+		--> f=fopen(fichierTerrains) ?PAS SUR?
+
+5. a. Si tu souhaites écrire dans un fichier est ce que celà va fonctionner ? --> "client.dat","a+" --> Oui ?
+   b. Ici tu souhaites lire le fichier  --> "reservations.txt","b" --> Non, "reservations.txt.","r" 
+ 
+
+6. Quels sont les erreurs ici --> fread(&cli,sizeof(client),2,"client.dat");
+
+7. Fais une structure avec les "champs" nom, prenom,  adresse, numcarteId.
+	
+	typedef clients
+	{
+		char Nom[50];
+		char Prenom[50];
+		char Adresse[50];
+		int NumcarteId[20];
+	}client;
+
+8. Quelle est la commande pour écrire dans un fichier ? --> Je sais plus 
+
+9. Reprends le point 7 et fais en une de tes variables. --> Pas compris
+
+10. Reprends le point 7 et rajoute une structure dateDeNaissance.
+
+	Tapes les deux structures :) 
+
+	typedef clients
+	{
+		char Nom[50];
+		char Prenom[50];
+		date
+		char Adresse[50];
+		int NumcarteId[20];
+	}client;
+
+	typedef dates
+	{
+		int Jour[2];
+		int Mois[2];
+		int Annee[4];
+	}date;
+
+11. Que dois tu faire absolument avant d'utiliser un fichier (soit écrire, lire)? --> L'ouvrir, regarder si le fichier existe puis on peut écrire et lire
+
+12. Après avoir donné un nom à ton fichier "de sorte à ce qu'il soit présent sur ton disque dur"  que dois tu faire avant de faire
+	des traitements dedans ? 
+	
+	--> Appeler le fichier par une fonction ?
+
+13. Si tu souhaites utiliser un sous programme qui affiche un menu, de quel type sera t'il ? 
+
+	--> De type INT
+
+14. Quelle est la différence entre une procédure et une fonction ? 
+
+	--> Je sais pas du tout c'est ça le problème (Je sais j'suis nulle mdrrr)
+
+15. Quels sont les 3 "phases" à coder pour utiliser un fonction ou procédure?
+
+	--> La structure, le main et l'appel (J'suis pas sûr que j'ai compris la question ou même que je sache y répondre honnêtement)
+
+16. Dans le main est ce que cet appel est correct ? call tri();
+
+	--> J'aurais plutôt écrit, "Void tri();"
+
+17. Crée un sous programme qui retourne 1 ou 0 selon la note entrée
+    De quel type sera le sous programme.
+
+	fais un petit exemple d'appel de ce sous programme 	(comme je t'ai montré à la pause d'économie)
+
+	--> J'ai pas assez assimilé ce qu'on a fait pour te créer ça désolé Arnaud 
+
+18. Quel est le symbole du pointeur ? --> "*"
+
+19. Est ce qu'une fonction peut renvoyer un entier et une chaine ? --> Oui
+
+20. Pourquoi utiliser un pointeur ? -->Pour lire le fichier et ne pas à chaque fois écrire son nom en entier 

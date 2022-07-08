@@ -1,0 +1,48 @@
+1. Presque bon tu as bien ton fclose mais tu dois mettre entre paranthèses le pointeur de ton fichier
+	--> fclose(clients);
+
+2. tu dois faire un typedef (définition de type) et ça s'applique au type structure 
+
+3. Il y avait deux erreurs la première le file doit être en majuscule et il manquait le * par contre pas
+	de paranthèses au * --> FILE *fichierClient;
+
+4. Non fichierTerrains = fopen("terrains.dat","a"); 
+	d'abord le nom de ton pointeur qui doit ouvrir le fichier terrains.dat en lecture/écriture ou autre
+
+5. a. oui le a et le a+ sont des modes d'écritures
+   b.	 YES
+
+6. Presque tes deux derniers arguments doivent être 1 suivit de ton pointeur de fichier et non du nom réel de ton fichier sur le disque
+
+7. Pas loin il te manque entre le typedef et clients le mot struct
+		et un int pas besoin de []
+
+8. fwrite
+
+9. tu devais faire un typedef en fait ^^
+
+10. Le typedef de dates doit être déclaré avant le typedef de clients car le type date n'est pas encore connu de ton client
+	dans tes clients tu dois mettre dates date 
+				--> créer un champ dates de type date 
+	et pas de [] dans les int :)
+
+11. Ouep 
+
+12. Tester si il est présent :) 
+ 
+13. non le type void :)
+
+14. Tu vas arrêter avec je suis nulle sinon je m'occupes plus de toi :)  
+	une fonction retourne une valeur, la procédure non 
+
+15. Presque bon ! Il te faut avant faire un prototype, ensuite bon tu fais un appel de ta fonction et en dessous du main tu codes ta fonction 
+
+16. Lors d'un appel pas de void, juste NOMDETAFONCTION();
+
+17. Oui j'avoue que c'est chaud désolé :) 
+
+18. YES
+
+19. Ha là non une fonctin ne peut renvoyer d'une seul valeur et d'un seul type :)
+
+20. Oui allez c'est pas tout à fait faux :) Ok pour celle là mais pas que! 

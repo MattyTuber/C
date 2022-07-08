@@ -1,0 +1,17 @@
+Lundi	|Mardi	|Mercredi  |Jeudi  |Vendredi |Samedi	  |Dimanche  |
+*********************************************************************|	
+8-9	|8-9	|8-9	   |8-9	   |8-9	     |Interclubs |Interclubs |
+9-10	|9-10	|9-10	   |9-10   |9-10     |Interclubs |Interclubs |
+10-11	|10-11	|10-11	   |10-11  |10-11    |Interclubs |Interclubs |
+11-12	|11-12	|11-12	   |11-12  |11-12    |Interclubs |Interclubs |
+12-13	|12-13	|12-13	   |12-13  |12-13    |Interclubs |Interclubs |
+13-14	|13-14	|13-14	   |13-14  |13-14    |Interclubs |Interclubs |
+14-15	|14-15	|Ecole*    |14-15  |14-15    |Interclubs |Interclubs |
+15-16	|15-16	|Ecole*	   |15-16  |15-16    |Interclubs |Interclubs |
+16-17	|16-17	|Ecole*	   |16-17  |16-17    |Interclubs |Interclubs |
+17-18	|17-18	|Ecole*	   |17-18  |17-18    |Interclubs |Interclubs |
+18-19	|18-19	|Ecole*	   |18-19  |18-19    |Interclubs |Interclubs |
+19-20	|19-20	|Ecole*	   |19-20  |19-20    |Interclubs |Interclubs |
+20-21	|20-21	|20-21	   |20-21  |20-21    |Interclubs |Entretien* |
+21-22	|21-22	|21-22	   |21-22  |21-22    |Interclubs |Entretien* |
+_____________________________________________________________________|

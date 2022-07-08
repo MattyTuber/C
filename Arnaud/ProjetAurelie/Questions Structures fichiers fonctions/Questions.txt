@@ -1,0 +1,51 @@
+1. Comment fermes tu le fichier clients ? 
+
+2. Comment faire pour créer ton propre type de donnée et a quelle type de donnée ça s'applique?
+
+3. Dans ce code suivant quelles sont les erreurs ?
+
+	file fichierClient ;
+
+4. Quelle est la syntaxe pour ouvrir un fichier exemple fichierTerrains
+
+		--> 
+
+5. a. Si tu souhaites écrire dans un fichier est ce que celà va fonctionner ? --> "client.dat","a+"
+   b. Ici tu souhaites lire le fichier  --> "reservations.txt","b"
+ 
+
+6. Quels sont les erreurs ici --> fraed(&cli(sizeof(client),2, "client.dat");
+
+7. Fais une structure avec les "champs" nom, prenom,  adresse, numcarteId.
+
+8. Quelle est la commande pour écrire dans un fichier ? 
+
+9. Reprends le point 7 et fais en une de tes variables.
+
+10. Reprends le point 7 et rajoute une structure dateDeNaissance.
+
+	Tapes les deux structures :) 
+
+11. Que dois tu faire absolument avant d'utiliser un fichier (soit écrire, lire)?
+
+12. Après avoir donné un nom à ton fichier "de sorte à ce qu'il soit présent sur ton disque dur"  que dois tu faire avant de faire
+	des traitements dedans ? 
+
+13. Si tu souhaites utiliser un sous programme qui affiche un menu, de quel type sera t'il ? 
+
+14. Quelle est la différence entre une procédure et une fonction ? 
+
+15. Quels sont les 3 "phases" à coder pour utiliser un fonction ou procédure?
+
+16. Dans le main est ce que cet appel est correct ? call tri();
+
+17. Crée un sous programme qui retourne 1 ou 0 selon la note entrée
+    De quel type sera le sous programme.
+
+	fais un petit exemple d'appel de ce sous programme 	(comme je t'ai montré à la pause d'économie)
+
+18. Quel est le symbole du pointeur ? 
+
+19. Est ce qu'une fonction peut renvoyer un entier et une chaine ? 
+
+20. Pourquoi utiliser un pointeur ?

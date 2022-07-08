@@ -1,0 +1,7 @@
+dur
+gazon
+indoor
+moquette
+parquet
+synthetique
+terre battue
